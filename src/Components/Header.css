@@ -1,0 +1,23 @@
+#container {
+    background-color: #0C70F2;
+    display:flex ;
+    justify-content: last baseline;
+    margin: none;
+    width: 100%;
+    height: 10vh;
+    align-items: end
+}
+
+#container p {
+    padding: 2vh 3em;
+    margin: 0;
+    border-radius: 15px 15px 0px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#container p:last-of-type  {
+    background-color: white;
+    color:#0C70F2
+}
